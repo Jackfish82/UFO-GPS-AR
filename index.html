@@ -12,7 +12,7 @@
         arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false;'
         renderer='antialias: true; alpha: true'>
             <a-camera gps-camera rotation-reader gpsMinDistance 10></a-camera>
-            <a-sphere gps-projected-entity-place='latitude: 55.07589; longitude: 61.29617' position='0 20 0' material='color: blue' scale='3 3 3'></a-sphere>
+            <a-box material="color: yellow" gps-entity-place="latitude: 55.07589; longitude: 61.29617" position="0 10 0"/>
         </a-scene>
     </body>
 </html>
